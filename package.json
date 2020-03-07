@@ -25,7 +25,7 @@
     "README.adoc"
   ],
   "scripts": {
-    "prepublishOnly": "bundle install && bundle exec rake build:js"
+    "prepublishOnly": "bundle install && bundle exec rake build:js && bundle exec rake readme2md"
   },
   "devDependencies": {
     "@asciidoctor/core": ">=2.0.0 <2.2.0"
